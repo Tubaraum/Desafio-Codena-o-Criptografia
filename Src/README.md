@@ -36,5 +36,5 @@ Escrever um programa, que faça uma requisição HTTP para a url fornecida.
 Usar qualquer biblioteca de criptografia da sua linguagem de programação favorita para gerar o resumo sha1 do texto decifrado.</li>
 
 <li>O programa deve submeter o arquivo atualizado para correção via POST para a API:<br/>
-https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=SEU_TOKEN</li></ol>
+https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=SEU_TOKEN</li></ol><br/>
 OBS: a API espera um arquivo sendo enviado como multipart/form-data, como se fosse enviado por um formulário HTML, com um campo do tipo file com o nome answer. Considere isso ao enviar o arquivo.
